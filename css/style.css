@@ -795,3 +795,19 @@ button {
 .margin_top{
     margin-top: 90px;
 }
+.map-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 75%; /* height ratio (adjust if needed) */
+  height: 0;
+  overflow: hidden;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
