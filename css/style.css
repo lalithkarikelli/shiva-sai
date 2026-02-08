@@ -670,6 +670,117 @@ button {
     color: #ffffff;
 }
 
+/* Contact form styling */
+.send_bt .submit-btn {
+    width: 100%;
+    background-color: #171717;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 16px;
+    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.send_bt .submit-btn:hover {
+    background-color: #FF914D;
+    color: #ffffff;
+}
+
+.send_bt .submit-btn:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+}
+
+.error-text {
+    color: #d9534f;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none;
+}
+
+.success-message {
+    color: #5cb85c;
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    text-align: center;
+    display: none;
+}
+
+#contactForm input:focus,
+#contactForm textarea:focus {
+    outline: none;
+    border-color: #FF914D;
+    box-shadow: 0 0 5px rgba(255, 145, 77, 0.5);
+}
+
+/* Contact buttons styling */
+.contact_buttons_wrapper {
+    padding: 20px 0;
+}
+
+.contact_method_title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact_button_group {
+    margin: 20px 0;
+}
+
+.contact_button {
+    display: inline-block;
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+.whatsapp_btn {
+    background: linear-gradient(135deg, #25d366 0%, #20ba5a 100%);
+    margin-bottom: 15px;
+}
+
+.whatsapp_btn:hover {
+    background: linear-gradient(135deg, #20ba5a 0%, #1a8e4d 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(37, 211, 102, 0.4);
+    text-decoration: none;
+    color: white;
+}
+
+.email_btn {
+    background: linear-gradient(135deg, #FF914D 0%, #ff7e2f 100%);
+}
+
+.email_btn:hover {
+    background: linear-gradient(135deg, #ff7e2f 0%, #ff6b1f 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 145, 77, 0.4);
+    text-decoration: none;
+    color: white;
+}
+
+.contact_button i {
+    margin-right: 10px;
+    font-size: 20px;
+}
 
 /* contact section end */
 
