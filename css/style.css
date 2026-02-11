@@ -1029,3 +1029,20 @@ button {
         100% { transform: translateX(-50%); }
     }
 }
+
+
+.map-responsive {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+}
+
+.map-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  border: 0;
+}
